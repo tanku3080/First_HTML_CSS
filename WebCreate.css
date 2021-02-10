@@ -13,7 +13,6 @@
     align-self: center;
     justify-self: center;
 }
-
 .full-screen video{
     position: relative;
     left: 0;
@@ -23,12 +22,22 @@
     object-fit: cover;
     z-index: -1;
 }
+.title h1{
+    margin: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    font-family: 'Black Ops One', cursive;
+    color: seagreen;
+    text-align: center;
+    font-size: 100px;
+}
 
 .content a{
     margin: auto;
     display: block;
     text-align: center;
-    top:  80px;
     width: 250px;
     line-height: 54px;
     background: cyan;
