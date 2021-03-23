@@ -55,3 +55,6 @@
     background: red;
     text-transform: uppercase;
 }
+.Game g:hover{
+    background-color: darkred;
+}
