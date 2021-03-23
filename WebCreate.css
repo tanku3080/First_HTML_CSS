@@ -46,3 +46,12 @@
 .content a:hover{
     background-color: darkred;
 }
+.Game g{
+    margin: auto;
+    display: block;
+    text-align: left;
+    width: 250px;
+    line-height: 54px;
+    background: red;
+    text-transform: uppercase;
+}
