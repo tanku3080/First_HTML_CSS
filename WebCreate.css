@@ -38,6 +38,7 @@
     margin: auto;
     display: block;
     text-align: center;
+    font-family: "Black Ops One", coursive;
     width: 250px;
     line-height: 54px;
     background: cyan;
@@ -49,7 +50,8 @@
 .Game g{
     margin: auto;
     display: block;
-    text-align: left;
+    text-align: center;
+    font-family: "Black Ops One", coursive;
     width: 250px;
     line-height: 54px;
     background: red;
