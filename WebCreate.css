@@ -45,7 +45,7 @@
     text-transform: uppercase;
 }
 .content a:hover{
-    background-color: darkred;
+    background-color: yellow;
 }
 .Game g{
     margin: auto;
@@ -58,5 +58,5 @@
     text-transform: uppercase;
 }
 .Game g:hover{
-    background-color: darkred;
+    background-color: yellow;
 }
