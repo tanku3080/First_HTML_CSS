@@ -5,6 +5,11 @@
     text-decoration: none;
 }
 
+.textSet h1{
+    text-align: center;
+    color: red;
+}
+
 .imageSize img{
     width:auto;
     height:auto;
