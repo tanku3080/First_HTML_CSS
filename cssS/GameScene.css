@@ -4,6 +4,10 @@
     font-family: Open Sans;
     text-decoration: none;
 }
+.textSet h1{
+    text-align: center;
+    color: red;
+}
 
 .imageSet img{
     width:auto;
@@ -22,6 +26,13 @@
     left: 0;
     width: 100%;
     height: 100%;
+}
+.moviePlay iframe{
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 400px;
+    max-width: 100%;
 }
 
 .content a{
