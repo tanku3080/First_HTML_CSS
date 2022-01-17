@@ -21,8 +21,11 @@
 }
 .pdfSetUp {
     position: relative;
-    width: 70%;
-    padding: 75em 50em 50em;
+   /* width: 70%;
+    padding: 75em 50em 50em;*/
+
+    size: 640px 480px;
+    margin: 0;
 }
 .pdfSetUp embed{
     position: absolute;
