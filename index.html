@@ -2,25 +2,55 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="wideth=device-width,initial-scale=1.0" />
-    <title>Tasuku Task</title>
-    <link rel="stylesheet" href="cssS/WebCreate.css" />
-    <link
-      href="https://fonts.googleapis.com
-        /css2?family=Alfa+Slab+One&display=swap"
-      rel="stylesheet"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="./cssS/style.css" />
   </head>
   <body>
-    <div class="imageSize"><img src="contents/FrontPhoto.png" /></div>
-    <div class="content">
-      <a href="https://github.com/tanku3080" target="button">My github</a>
+    <div class="wrapper">
+      <header>
+        <nav>
+          <ul>
+            <li><button id="work-btn">Work</button></li>
+            <li>
+              <a href="https://github.com/tanku3080"
+                ><button id="github-btn">My Github</button></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div id="content">
+          <div class="card">
+            <img src="./contents/FrontPhoto_dummy1.png" alt="Image 1" />
+            <h2>Content 1</h2>
+          </div>
+          <div class="card">
+            <img src="./contents/FrontPhoto_dummy2.png" alt="Image 2" />
+            <h2>Content 2</h2>
+          </div>
+          <div class="card">
+            <img src="./contents/FrontPhoto_dummy3.png" alt="Image 3" />
+            <h2>Content 3</h2>
+          </div>
+          <div class="card">
+            <img src="./contents/FrontPhoto_dummy4.png" alt="Image 4" />
+            <h2>Content 4</h2>
+          </div>
+        </div>
+        <div id="detail">
+          <div class="close-btn-container">
+            <button id="close-btn">&times;</button>
+          </div>
+          <div id="detail-content">
+            <img id="detail-img" src="" alt="" />
+            <h2 id="detail-title"></h2>
+            <p id="detail-description"></p>
+          </div>
+        </div>
+      </main>
     </div>
-    <div class="Game">
-      <a href="htmls/Games.html" target="button">Working</a>
-    </div>
-    <div class="textSet">
-      <header><h1>一部UIはスマホ非対応になっています。</h1></header>
-    </div>
+    <script src="./js/script.js"></script>
   </body>
 </html>
